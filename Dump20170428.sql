@@ -153,7 +153,7 @@ CREATE TABLE `players` (
 
 LOCK TABLES `players` WRITE;
 /*!40000 ALTER TABLE `players` DISABLE KEYS */;
-INSERT INTO `players` VALUES ('','','','','',''),('P001','Carlos','Ramirez','male','Espania','Ocelote'),('P002','Ana','Tellechea','female','Paris','thenglishteacher'),('P003','Arturo','Parada','male','Ukraine','r2d2 pk'),('P004','Matilde','Escobar','female','Colombia','skywoman'),('P005','Daniel','Silva','male','New Zealand','MopeyBrich71'),('P006','Cintya','Trujillo','female','Canada','JumperCrack'),('P007','Jesusandres','Lopez','male','Mexico','JEzvery'),('P008','Salma','Arkam','female','Morocco','moroccogirl123'),('P009','Flavio','Robles','male','Japan','lll DKFVS lll'),('P010','Haydee','Moreno','female','United Kingdom','haydeemorenog');
+INSERT INTO `players` VALUES ('','','','','',''),('P001','Gustavo','Rodriguez','male','Espania','BulkyCargo14'),('P002','Ana','Tellechea','female','Paris','thenglishteacher'),('P003','Arturo','Parada','male','Ukraine','r2d2 pk'),('P004','Matilde','Escobar','female','Colombia','skywoman'),('P005','Daniel','Silva','male','New Zealand','MopeyBrich71'),('P006','Cintya','Trujillo','female','Canada','JumperCrack'),('P007','Jesusandres','Lopez','male','Mexico','JEzvery'),('P008','Salma','Arkam','female','Morocco','moroccogirl123'),('P009','Flavio','Robles','male','Japan','lll DKFVS lll'),('P010','Haydee','Moreno','female','United Kingdom','haydeemorenog');
 /*!40000 ALTER TABLE `players` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -181,7 +181,7 @@ CREATE TABLE `players_game_ranking` (
 
 LOCK TABLES `players_game_ranking` WRITE;
 /*!40000 ALTER TABLE `players_game_ranking` DISABLE KEYS */;
-INSERT INTO `players_game_ranking` VALUES (NULL,NULL,''),('P002','G009','90'),('P004','G007','69'),('P006','G005','34'),('P008','G003','55'),('P010','G001','99'),('P009','G002','12'),('P007','G004','80'),('P005','G006','79'),('P003','G008','50'),('P001','G010','22');
+INSERT INTO `players_game_ranking` VALUES (NULL,NULL,''),('P002','G009','90'),('P004','G007','80'),('P006','G005','34'),('P008','G003','55'),('P010','G001','99'),('P009','G002','12'),('P007','G004','69'),('P005','G006','79'),('P003','G008','50'),('P001','G010','22');
 /*!40000 ALTER TABLE `players_game_ranking` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -255,4 +255,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2017-04-28  0:47:43
+-- Dump completed on 2017-04-28 19:09:33
